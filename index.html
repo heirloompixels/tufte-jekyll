@@ -15,3 +15,27 @@ title: blog
         </li>
     {% endfor %}
   </ul>
+
+
+  <h1 class="content-listing-header sans">Paintings</h1>
+  <ul class="content-listing ">
+    {% for post in site.tags.paintings %}      
+        <li class="listing">
+          <hr class="slender">
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
+          <figure >
+             <img src="{{ post.image }}"> 
+          </figure>
+        </li>
+    {% endfor %}
+  </ul>
+
+
+  <h1 class="content-listing-header sans">Paintings</h1>
+  <ul class="content-listing ">
+    {% for post in site.tags.paintings %}      
+        <li style="float: left;" class="listing">
+             <img height="200px" src="{{ post.image }}"> 
+        </li>
+    {% endfor %}
+  </ul>
