@@ -3,7 +3,9 @@ layout: post
 title:  "Binoculars"
 date:   2017-02-08 13:06:04
 categories: jekyll update
-tags: paintings raindances
+tags: 
+- oil 
+- raindances
 image: /allTheJpg/Binoculars.jpg
 thumbnail: /allTheJpg/Binoculars.jpg
 ---

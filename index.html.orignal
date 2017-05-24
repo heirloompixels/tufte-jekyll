@@ -1,10 +1,14 @@
 ---
-layout: full-width
+layout: page
 title: blog
 # Note that this index page uses a full-width layout!
 ---
 
   <h1 class="content-listing-header sans">Articles</h1>
+The collected (condensed) works of Kyle Cunningham, painter and desert dweller.  Printmaker and purveyor of handcrafted adornment. Notes and rumination upon various subjects pertaining and not pertaining to his own creations.  This is a collection of established quips and visual cues accompanied.
+
+
+
   <ul class="content-listing ">
     {% for post in site.posts %}      
         <li class="listing">

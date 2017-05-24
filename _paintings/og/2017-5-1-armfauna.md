@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Binoculars"
+title:  "Arm Fauna"
 date:   2017-02-08 13:06:04
 categories: jekyll update
-tags: paintings raindances
-image: /allTheJpg/Binoculars.jpg
-thumbnail: /allTheJpg/Binoculars.jpg
+tags: 
+- oil 
+- raindances 
+image: /allTheJpg/armFauna-nov16.jpg
+thumbnail: /allTheJpg/armFauna-nov16.jpg
 ---
 
 Painting of the elephant kicking ass. 
@@ -13,11 +15,15 @@ Painting of the elephant kicking ass.
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.=]
 
-{% marginfigure 'mf-id-1' 'allTheJpg/bison.jpg' 'F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s *Visual Explanations*.' %}
-
-
 Jekyll also offers powerful support for code snippets:
 
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 

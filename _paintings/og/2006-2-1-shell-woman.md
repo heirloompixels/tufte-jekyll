@@ -3,9 +3,12 @@ layout: post
 title:  "Binoculars"
 date:   2017-02-08 13:06:04
 categories: jekyll update
-tags: paintings raindances
-image: /allTheJpg/Binoculars.jpg
-thumbnail: /allTheJpg/Binoculars.jpg
+tags: 
+- watercolor
+- elephants
+- shell-woman
+image: /allTheJpg/shellWoman.jpg
+thumbnail: /allTheJpg/shellWoman.jpg
 ---
 
 Painting of the elephant kicking ass. 

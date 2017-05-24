@@ -1,4 +1,5 @@
-baseurl: https://heirloompixels.github.io/modernancient.org/
+#baseurl: https://heirloompixels.github.io/modernancient.org/
+baseurl:
 title: modern ancient. 
 subtitle: quips and glimses
 author: kyle cunningham 
@@ -25,3 +26,8 @@ transfer:
   settings: -av
   source: _site/
   destination: ~/Git/clayh53.github.com/
+
+collections: 
+  paintings: 
+    output: true
+

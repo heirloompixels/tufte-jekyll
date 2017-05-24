@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <script src="/assets/jquery-3.2.1.min.js"></script>
+  <script src="/assets/isotope.pkgd.min.js"></script>
+
+  
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+<style type="text/css">
+    a.button.active {
+        background: #F76B48;
+            border: 1px solid #F76B48;
+                color: #fff;
+                  }
+
+
+
+              .gutter-sizer { width: 2%;}
+              .grid-sizer { width: 18%; }
+                  .grid-item {
+                      float: left;
+                        width: 20%;
+                        margin-bottom: 10px; 
+                            }
+
+                            .grid-item--width2 { width: 40%; }
+                </style>
+
+  <body class="full-width">
+    {% include header.html %}
+    <div class="button-group  filter-button-group">
+      {% for category in site.paintings.tags %}
+              <a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
+          {% endfor %}
+          <a class="button active" data-filter="*">All</a>
+   </div>
+
+
+    <article>
+      {{ content }}
+    </article>
+    {% include print-footer.html %}
+    {% include footer.html %}
+  </body>
+</html>
